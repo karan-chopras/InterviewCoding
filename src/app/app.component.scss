@@ -1,0 +1,15 @@
+@import '_variables';
+.navigation {
+    width:100%; float: left ; margin-bottom: 30px;
+   ul{
+        list-style: none;margin-left:1%; margin-top: 30px;
+        li {
+            display:inline; 
+            a{
+                color:$black; font-size: 14px;  font-weight: 700; margin: 20px 10px;
+             }
+        }
+    }
+}
+
+

@@ -1,0 +1,13 @@
+@import '_variables';
+.wra{ position: relative; top: 10%;}
+.tree_wrapper{
+width:514px; 
+position: absolute;
+left: 50%;
+top: 60%;margin-top:45%;
+
+-webkit-transform: translate(-60%, -50%);
+transform: translate(-60%, -50%);
+
+
+}

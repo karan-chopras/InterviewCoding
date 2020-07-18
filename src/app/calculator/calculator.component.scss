@@ -1,0 +1,53 @@
+@import '_variables';
+
+.form_wrapper {
+    width:514px; 
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: $body-bg;
+    padding: 20px;
+    .form_heading{
+        background-color: #00b4cb; color:$white;
+        padding:15px 0px ; text-align: center; 
+    }
+    .slidecontainer {
+        -webkit-appearance: none;
+        width: 100%;
+     margin-top: 30px;
+      
+        outline: none;
+        opacity: 0.7;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+        .value{
+            color:$white; font-size: 13px; font-weight: 700; top: 6px; left:5px; position: relative;
+        } 
+      }
+      
+      .slider:hover {
+        opacity: 1;
+      }
+   .Moratorium_wrapper{
+      
+   }
+   .white_bg{
+       background-color: $white; margin-bottom: 10px;
+   }
+   .padding{
+    padding: 10px 5px;
+   }
+   .padding_btn{
+   height: 30px; width:100px;
+   }
+   .padding_btns{
+    height: 30px; width:190px; background-color: #e7873b; margin-top: 20px; position: relative;
+    left:30%; font-size: 13px;
+    }
+   .Moratorium_wrapper{ width:100%; margin-top: 30px; }
+   .bg_formcontrol{ background-color:$formcontrol_bg; height: 45px;
+    font-size: 13px;}
+    .bg_formcontrol_blue {background-color: #2a2e39;height: 45px;}
+}

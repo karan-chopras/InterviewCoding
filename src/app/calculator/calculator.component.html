@@ -1,0 +1,83 @@
+<div class="form_wrapper">
+    <div class="form_heading">
+      <h4>Moratorium Option Calculator</h4>
+    </div>
+      <div class="slidecontainer">
+        <p class="value">  {{value}}</p>
+        <input type="range" min="10000" max="1000000" #ranger (input)="yourMethod(ranger.value)">
+     
+      </div>
+      <form class="Moratorium_wrapper">
+      <div class="row white_bg">
+        <div class="col-md-6 padding">
+          <label>Tenure</label>
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control bg_formcontrol" />
+        </div>
+      </div>
+      <div class="row white_bg">
+        <div class="col-md-6 padding">
+          <label>ROI</label>
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control bg_formcontrol" />
+        </div>
+      </div>
+      <div class="row white_bg">
+        <div class="col-md-6 padding">
+          <label>EMI Paid Till Date</label>
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control bg_formcontrol" />
+        </div>
+      </div>
+      <div class="row white_bg">
+        <div class="col-md-6 padding">
+          <label>Balance POS</label>
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control bg_formcontrol_blue" />
+        </div>
+      </div>
+      <div class="row white_bg">
+        <div class="col-md-6 padding">
+          <label>Balance Tenure</label>
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control bg_formcontrol_blue" />
+        </div>
+      </div>
+      <div class="row white_bg">
+        <div class="col-md-6 padding">
+          <label> Compuend Interest</label>
+        </div>
+        <div class="col-md-6">
+          <select class="form-control bg_formcontrol">
+            <option value="1">Lorum Lipsum</option>
+            <option value="1">Lorum Lipsum</option>
+            <option value="1">Lorum Lipsum</option>
+            <option value="1">Lorum Lipsum</option>
+          </select>
+         
+        </div>
+      </div>
+      <h4> Moratorium Months</h4>
+      <div class="row">
+        <div class="col-md-3">
+         <button type="button" class="btn btn-primary padding_btn">Not Availed</button>
+        </div>
+        <div class="col-md-3">
+         <button type="button" class="btn btn-secondary padding_btn">1</button>
+        </div>
+        <div class="col-md-3">
+         <button type="button" class="btn btn-success padding_btn">2</button>
+        </div>
+        <div class="col-md-3">
+         <button type="button" class="btn btn-danger padding_btn">3</button>
+        </div>
+      </div>
+      <div class="calcute"> <button type="button" class="btn btn-danger padding_btns">Calcute</button></div>
+  </form>
+ 
+  </div>

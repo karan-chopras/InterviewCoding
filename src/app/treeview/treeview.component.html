@@ -1,0 +1,19 @@
+
+<div class="wra">
+<div class="tree_wrapper">
+    <div *ngFor="let employe of employees">
+        <div *ngFor="let employeeId of employe.children">
+        <p>
+            {{employe.name}}
+            
+        </p>
+        <p>{{employeeId.name}}</p>
+        <p>{{employeeId.chainJob}}</p>
+        <p>
+            {{employe.chainJob}}
+          
+        </p>
+    </div>
+    </div>
+</div>
+</div>
